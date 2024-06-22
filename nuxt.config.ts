@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  devtools: { enabled: false },
+  css: ["~/assets/css/main.css"],
 
   postcss: {
     plugins: {
@@ -11,4 +11,4 @@ export default defineNuxtConfig({
   },
 
   modules: ["@ant-design-vue/nuxt"],
-})
+});
